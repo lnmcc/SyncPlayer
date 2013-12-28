@@ -1,0 +1,47 @@
+
+{
+    "id":7,
+    "type":"sync",
+    "libName":"pic",
+    "start":"1382685162744962",
+    "deps":[
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":-960, "button":-1080, "right":-480, "top":1080, "z":-1,"duration":2000},
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":-480, "button":-1080, "right":0, "top":1080, "z":1,"duration":2000},
+     {"order":3,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":0, "button":-1080, "right":480, "top":1080, "z":-1,"duration":2000},
+     {"order":4,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":480, "button":-1080, "right":960, "top":1080, "z":1,"duration":2000},
+
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":-960, "button":-1080, "right":-480, "top":1080, "z":-1,"duration":2000},
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":-480, "button":-1080, "right":0, "top":1080, "z":1,"duration":2000},
+     {"order":3,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":0, "button":-1080, "right":480, "top":1080, "z":-1,"duration":2000},
+     {"order":4,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":480, "button":-1080, "right":960, "top":1080, "z":1,"duration":2000},
+
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/33.bmp","type":"bmp", "left":-960, "button":-1080, "right":-480, "top":1080, "z":-1,"duration":2000},
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/33.bmp","type":"bmp", "left":-480, "button":-1080, "right":0, "top":1080, "z":1,"duration":2000},
+     {"order":3,"path":"/danoo/content/xplay4matrix/pic/33.bmp","type":"bmp", "left":0, "button":-1080, "right":480, "top":1080, "z":-1,"duration":2000},
+     {"order":4,"path":"/danoo/content/xplay4matrix/pic/33.bmp","type":"bmp", "left":480, "button":-1080, "right":960, "top":1080, "z":1,"duration":2000},
+
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/44.bmp","type":"bmp", "left":-960, "button":-1080, "right":-480, "top":1080, "z":-1,"duration":2000},
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/44.bmp","type":"bmp", "left":-480, "button":-1080, "right":0, "top":1080, "z":1,"duration":2000},
+     {"order":3,"path":"/danoo/content/xplay4matrix/pic/44.bmp","type":"bmp", "left":0, "button":-1080, "right":480, "top":1080, "z":-1,"duration":2000},
+     {"order":4,"path":"/danoo/content/xplay4matrix/pic/44.bmp","type":"bmp", "left":480, "button":-1080, "right":960, "top":1080, "z":1,"duration":2000}
+]
+}
+#End
+
+
+{
+    "id":19,
+    "type":"sync",
+    "libName":"pic",
+    "start":"1382685180413175",
+    "deps":[
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":-960, "button":-200, "right":-480, "top":200, "z":1,"duration":1000},
+
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/11.bmp","type":"bmp", "left":-480, "button":-200, "right":0, "top":200, "z":1,"duration":1000},
+
+     {"order":1,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":-960, "button":-200, "right":-480, "top":200, "z":1,"duration":1000},
+
+     {"order":2,"path":"/danoo/content/xplay4matrix/pic/22.bmp","type":"bmp", "left":-480, "button":-200, "right":0, "top":200, "z":1,"duration":1000}
+]
+}
+#End

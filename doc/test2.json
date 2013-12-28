@@ -1,0 +1,30 @@
+{
+    "id":9,
+    "type":"sync",
+    "libName":"pic",
+    "start":"1382606492528680",
+    "deps":[
+     {"order":1,"path":"/home/lnmcc/Pictures/11.bmp","type":"bmp", "left":-400, "button":200, "right":-200, "top":300, "z":1,"duration":2000},
+
+
+     {"order":2,"path":"/home/lnmcc/Pictures/22.bmp","type":"bmp", "left":100, "button":200, "right":400, "top":300, "z":1,"duration":5000}
+]
+}
+#End
+
+
+{
+    "id":19,
+    "type":"sync",
+    "libName":"pic",
+    "start":"1382607452750759",
+    "deps":[
+     {"order":1,"path":"/home/lnmcc/Pictures/33.bmp","type":"bmp", "left":-400, "button":-200, "right":0, "top":0, "z":1,"duration":2000},
+
+
+     {"order":1,"path":"/home/lnmcc/Pictures/44.bmp","type":"bmp", "left":-400, "button":-200, "right":0, "top":0, "z":1,"duration":5000}
+]
+}
+#End
+
+
