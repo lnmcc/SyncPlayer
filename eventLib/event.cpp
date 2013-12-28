@@ -7,7 +7,6 @@
  *  Site   : lnmcc.net
  */
 
-
 #include "event.h"
 #include "../bmpPlugin/bmpPlugin.h"
 #include "../pluginManager/pluginManager.h"
