@@ -71,7 +71,7 @@ private:
 	CondQueue<std::string*> m_jsonStrQueue;
 };
 
-//每收到一个Event都会启动一个本类来具体处理Event，调用者不需要负责删除这个类，本类会自性删除
+//每收到一个Event都会启动一个本类来具体处理Event，调用者不需要负责删除这个类，本类会自行删除
 //FIXME:鉴于这个类会自行删除，考虑要隐藏父类的一些方法
 class ProcessEvent: public Thread {
 
