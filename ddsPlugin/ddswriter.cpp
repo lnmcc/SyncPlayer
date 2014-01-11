@@ -26,7 +26,7 @@
 
 using namespace std;
 
-namespace xplay {
+namespace syncplayer {
 
 ddsWriter::ddsWriter(Context* context, const std::string name) :
 		Plugin(name) {
@@ -318,5 +318,5 @@ DDS_IMAGE_DATA* ddsWriter::loadDDSFromMem(const unsigned char *dds) {
 	return pData;
 }
 
-} /* namespace dds */
+} //namespace
 

@@ -7,7 +7,6 @@
  *  Site   : lnmcc.net
  */
 
-
 #include "bmpPlugin.h"
 #include "../ddsPlugin/ddswriter.h"
 #include "../openGlPaintPlugin/openGlPaintPlugin.h"
@@ -16,7 +15,7 @@
 #include <stdlib.h>
 #include <iostream>
 
-namespace xplay {
+namespace syncplayer {
 
 const static unsigned char bmpHeader[] = { 0x42, 0x4d, 0x3c, 0x00, 0x00, 0x00,
 		0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0x00, 0x00, 0x28, 0x00, 0x00, 0x00,
@@ -145,5 +144,5 @@ bool bmpPlugin::empty() {
 	return m_picInfoQueue.empty();
 }
 
-}
+} //namespace
 

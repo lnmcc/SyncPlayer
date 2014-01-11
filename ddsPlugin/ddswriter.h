@@ -13,7 +13,7 @@
 #include "../commonLib/common.h"
 #include "../pluginManager/pluginManager.h"
 
-namespace xplay {
+namespace syncplayer {
 
 #ifndef MAKEFOURCC
 #define MAKEFOURCC(ch0, ch1, ch2, ch3) \
@@ -76,5 +76,5 @@ private:
 	Context *m_context;
 };
 
-} /* namespace dds */
+} //namespace
 #endif

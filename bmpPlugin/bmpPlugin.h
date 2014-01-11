@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <string>
 
-namespace xplay {
+namespace syncplayer {
 
 class ddsWriter;
 
@@ -59,6 +59,6 @@ private:
 	CondQueue<PicInfo*> m_picInfoQueue;
 };
 
-}
+} //namespace
 
 #endif /* BMPPLUGIN_H_ */
