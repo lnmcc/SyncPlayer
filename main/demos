@@ -1,0 +1,50 @@
+	/*
+	 unsigned int bmpWidth = 0, bmpHeight = 0;
+	 unsigned int bmpWidth2 = 0, bmpHeight2 = 0;
+
+	 void *pixels = NULL;
+	 void *pixels2 = NULL;
+
+	 const char *filePath = "/home/lnmcc/Pictures/3.bmp";
+	 const char *filePath2 = "/home/lnmcc/Pictures/2.bmp";
+
+	 bmpPlugin::bmpPlugin *bmpPlugin = new bmpPlugin::bmpPlugin(context);
+
+	 bmpPlugin->file2Pix(filePath, &pixels, &bmpWidth, &bmpHeight);
+	 std::cerr << "width = " << bmpWidth << " height = " << bmpHeight
+	 << std::endl;
+	 bmpPlugin->file2Pix(filePath2, &pixels2, &bmpWidth2, &bmpHeight2);
+	 std::cerr << "width2 = " << bmpWidth2 << " height2 = " << bmpHeight2
+	 << std::endl;
+
+	 unsigned int ddsSize = 0;
+	 unsigned int ddsSize2 = 0;
+
+	 unsigned char *ddsMem = NULL;
+	 unsigned char *ddsMem2 = NULL;
+
+	 dds::ddsWriter *ddswriter = new dds::ddsWriter(context);
+
+	 ddsMem = ddswriter->pix2MemDDS((unsigned char*) pixels, bmpWidth, bmpHeight,
+	 &ddsSize);
+	 std::cerr << "ddsSize: " << ddsSize << std::endl;
+
+	 ddsMem2 = ddswriter->pix2MemDDS((unsigned char*) pixels2, bmpWidth2, bmpHeight2,
+	 &ddsSize2);
+	 std::cerr << "ddsSize2: " << ddsSize2 << std::endl;
+
+	 openGlPaintPlugin::openGlPaintPlugin *openglpaintplugin =
+	 new openGlPaintPlugin::openGlPaintPlugin(context);
+
+	 //openglpaintplugin->start();
+
+	 while (true) {
+	 RETRY1:
+	 bool ret = openglpaintplugin->push(ddsMem);
+	 if(!ret)
+	 goto RETRY1;
+	 RETRY2:
+	 ret = openglpaintplugin->push(ddsMem2);
+	 if(!ret)
+	 goto RETRY2;
+	 }*/
