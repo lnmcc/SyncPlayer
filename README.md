@@ -1,4 +1,4 @@
-Author: sijiewang
+Author: lnmcc 
 Email: lnmcc@hotmil.com
-Site: lnmcc.net
+Blog:  lnmcc.net
 QQ: 379085928
