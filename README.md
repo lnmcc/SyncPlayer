@@ -4,7 +4,7 @@ SyncPlayer
 
 ### 简介
 
-### build
+### BUILD
   项目使用Eclipse + cdt开发。
 
 ### 使用方法
