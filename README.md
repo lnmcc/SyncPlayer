@@ -4,6 +4,9 @@ SyncPlayer
 
 ### 简介
 
+### build
+  项目使用Eclipse + cdt开发。
+
 ### 使用方法
   1. 支持的json命令
   
