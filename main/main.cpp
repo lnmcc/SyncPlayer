@@ -8,13 +8,13 @@
  */
 
 #include "../commonLib/common.h"
-#include "../bmpPlugin/bmpPlugin.h"
-#include "../ddsPlugin/ddswriter.h"
-#include "../xlibEnv/xlibEnv.h"
+#include "bmpPlugin/bmpPlugin.h"
+#include "ddsPlugin/ddswriter.h"
+#include "xlibEnv/xlibEnv.h"
 #include "../threadLib/thread.h"
 #include "../eventLib/event.h"
-#include "../pluginManager/pluginManager.h"
-#include "../openGlPaintPlugin/openGlPaintPlugin.h"
+#include "pluginManager/pluginManager.h"
+#include "openGlPaintPlugin/openGlPaintPlugin.h"
 #include "../socketLib/socket.h"
 
 #include <unistd.h>

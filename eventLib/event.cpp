@@ -8,10 +8,10 @@
  */
 
 #include "event.h"
-#include "../bmpPlugin/bmpPlugin.h"
-#include "../pluginManager/pluginManager.h"
-#include "../openGlPaintPlugin/openGlPaintPlugin.h"
-#include "../ddsPlugin/ddswriter.h"
+#include "../main/bmpPlugin/bmpPlugin.h"
+#include "../main/pluginManager/pluginManager.h"
+#include "../main/openGlPaintPlugin/openGlPaintPlugin.h"
+#include "../main/ddsPlugin/ddswriter.h"
 
 #include <cassert>
 #include <iostream>

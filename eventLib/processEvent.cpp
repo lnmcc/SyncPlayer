@@ -8,8 +8,8 @@
  */
 
 #include "event.h"
-#include "../bmpPlugin/bmpPlugin.h"
-#include "../pluginManager/pluginManager.h"
+#include "../main/bmpPlugin/bmpPlugin.h"
+#include "../main/pluginManager/pluginManager.h"
 
 namespace syncplayer {
 
